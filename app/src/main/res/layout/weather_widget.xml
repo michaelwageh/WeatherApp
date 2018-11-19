@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_widget_id"
+    android:background="#004b64"
+    android:padding="6dp">
+
+
+    <TextView
+        android:id="@+id/widget_cairo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="Cairo" />
+
+
+    <TextView
+        android:id="@+id/widget_cairo_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:ignore="RelativeOverlap"
+        tools:text="30c" />
+
+
+    <TextView
+        android:id="@+id/widget_alexandria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widget_cairo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="Alexandria" />
+
+
+    <TextView
+        android:id="@+id/widget_alexandria_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_cairo_temp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="30c"
+
+        />
+
+
+    <TextView
+        android:id="@+id/widget_aswan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_alexandria"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="Aswan" />
+
+
+    <TextView
+        android:id="@+id/widget_aswan_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_alexandria_temp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="30c" />
+
+
+    <TextView
+        android:id="@+id/widget_luxor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_aswan"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="Luxor" />
+
+
+    <TextView
+        android:id="@+id/widget_luxor_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_aswan_temp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="30c" />
+
+    <TextView
+        android:id="@+id/widget_matruh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_luxor"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="Marsa Matruh" />
+
+    <TextView
+        android:id="@+id/widget_matruh_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widget_luxor_temp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        tools:text="30c" />
+
+
+</RelativeLayout>

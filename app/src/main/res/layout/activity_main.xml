@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tv_cairo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:text="Cairo"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="cairoDetails"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_cairo_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        tools:text="30c"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+
+
+    <TextView
+        android:id="@+id/tv_alexandria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cairo"
+        android:layout_alignParentStart="true"
+        tools:text="Alexandria"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="alexDetails"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_alexandria_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_cairo_temp"
+        android:layout_alignParentEnd="true"
+        tools:text="30c"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tv_aswan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_alexandria"
+        android:layout_alignParentStart="true"
+        tools:text="Aswan"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="aswanDetails"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_aswan_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_alexandria_temp"
+        android:layout_alignParentEnd="true"
+        tools:text="30c"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_luxor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_aswan"
+        android:layout_alignParentStart="true"
+        tools:text="Luxor"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="luxorDetails"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_luxor_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_aswan_temp"
+        android:layout_alignParentEnd="true"
+        tools:text="30c"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_matruh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_luxor"
+        android:layout_alignParentStart="true"
+        tools:text="Marsa Matruh"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:onClick="matruhDetails"
+        />
+
+    <TextView
+        android:id="@+id/tv_matruh_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_luxor_temp"
+        android:layout_alignParentEnd="true"
+        tools:text="30c"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
